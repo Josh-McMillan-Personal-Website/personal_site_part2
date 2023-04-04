@@ -1,0 +1,59 @@
+body {
+    background-color: lightblue;
+    margin: auto;
+    padding: 5px;
+    color: gold;
+}
+a{
+    text-decoration: none;
+    color: gold;
+}
+a:hover{
+    color: red;
+}
+h3{
+    font-style: italic;
+    font-size: x-large;
+    color: whitesmoke;
+    }
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+}
+h3{
+    text-align: center;
+
+}
+    
+.box-1{
+   text-align: center;
+   display: flex;
+   }
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+img{
+    width: 200px;
+    padding: 15px;
+   /*  float: left; */
+}
+
+p{
+    font-size: x-large;
+}
+
+.box-2{
+    text-align: center;
+    display: flex;
+    
+}
+h2{
+    text-align: center;
+}
