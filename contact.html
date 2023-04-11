@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Contact Me</title>
+    <style>
+      body {
+        background-image: url(woodbackground.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+
+  <header>
+    <span class="name">Josh McMillan</span>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <h1>Sign Up</h1>
+  <body>
+    <div id="form">
+      <form>
+        <div class="row">
+          <div class="column">
+            <label for="firstname">First Name</label>
+            <input type="text" value="First name here" />
+          </div>
+          <div class="column">
+            <label for="lastname">Last Name</label>
+            <input type="text" value="Last name here" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <label for="phone">Phone</label>
+            <input type="number" />
+          </div>
+          <div class="column">
+            <label for="email">Email</label>
+            <input type="email" value="your email here" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <label for="passwrod">Password</label>
+            <input type="password" />
+          </div>
+          <div class="column">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" />
+          </div>
+        </div>
+        <div id="terms">
+          <input type="checkbox" />
+          <label for="terms">Accept the terms</label>
+        </div>
+        <button type="Submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
